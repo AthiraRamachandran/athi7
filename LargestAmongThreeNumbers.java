@@ -1,16 +1,16 @@
-public class Largest {
+public class LargestAmongThreenumbers{
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        double n1 = -4.5, n2 = 3.9, n3 = 2.5;
+      int num1 = 10, num2 = 20, num3 = 7;
 
-        if( n1 >= n2 && n1 >= n3)
-            System.out.println(n1 + " is the largest number.");
+      if( num1 >= num2 && num1 >= num3)
+          System.out.println(num1+" ");
 
-        else if (n2 >= n1 && n2 >= n3)
-            System.out.println(n2 + " is the largest number.");
+      else if (num2 >= num1 && num2 >= num3)
+          System.out.println(num2+" ");
 
-        else
-            System.out.println(n3 + " is the largest number.");
-    }
+      else
+          System.out.println(num3+" ");
+  }
 }
