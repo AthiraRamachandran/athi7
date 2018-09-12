@@ -1,4 +1,4 @@
-public class PowerOfnumber {
+public class PowerOfNumbers {
 public static void main(string args[]) {
 Scanner sc=new Scanner(System.in);
 System.out.println("enter the base:");
