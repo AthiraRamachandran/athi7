@@ -3,9 +3,9 @@ public class Palindrome
     public static void main(String args[])
     {
         int n, m, a = 0,x;
-        Scanner s = new Scanner(System.in);
-        System.out.print("Enter any number:");
-        n = s.nextInt();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("number:");
+        n = sc.nextInt();
         m = n;
         while(n > 0)
         {
@@ -15,11 +15,11 @@ public class Palindrome
         }
         if(a == m)
         {
-            System.out.println("Given number "+m+" is Palindrome");
+            System.out.println("Palindrome");
         }
         else
         {
-            System.out.println("Given number "+m+" is Not Palindrome");
+            System.out.println("Not Palindrome");
         }
     }
     }
