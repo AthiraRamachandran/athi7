@@ -4,7 +4,10 @@ public class SumCheck {
        Scanner sc=new Scanner(System.in);
        int a=sc.nextInt();
        int b=sc.nextInt();
-       int c=a+b;
+       int c;
+       int m1=Math.abs(a);
+       int m2=Math.abs(b);
+        c=m1+m2;
        if(c%2==0){
            System.out.println("Even");
        }else{
